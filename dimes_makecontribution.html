@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Make contribution</title>
+        <link rel="stylesheet" type="text/css" a href="dimes_makecontribution.css"/>
+    </head>
+    <body>
+        <div class="logo">
+            <img src="logo1.jpg">            
+        </div>
+        
+        <div class="textbox">
+            <h2><u>Make your contribution</u></h2>
+            <form method="POST" action='dimes_makecontcon.php'>
+                <p>Membership key</p>                
+                    <input type="number" class="input-box" placeholder="Membership key" name="memkey"/>
+                <p>Contribution date</p>                
+                    <input type="date" class="input-box" placeholder="Contribution date" name="cont_date"/>
+                <p>Amount</p>
+                    <input type="number" class="input-box" placeholder="Amount greater than 200Ksh" name="cont_amount"/>
+                <p>M-pesa receipt code</p>
+                    <input type="text" class="input-box" placeholder="Receipt code" name="mpesarec"/>
+
+                <button type="submit" name="contbtn">Contribute</button>
+ 
+            </form>
+        </div>
+        <div id = "footer">
+            <hr>
+            DIMES| Copyright &copy;|2020            
+        </div>
+ 
+    </body>
+</html>

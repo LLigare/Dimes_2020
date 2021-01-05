@@ -1,0 +1,89 @@
+html { 
+    background: url(fi4.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  h1{
+      color: blanchedalmond;
+  }
+  #divleft{
+      height: 100%;
+      width: 50%;
+      float: left;
+  }
+#lt{
+      height: 50%;
+      font-size: 30px;
+      border-spacing: 0 20px;
+  }
+  #divright{
+    width: 50%;
+    float: left;
+}
+#rt{
+    height: 50%;
+    font-size: 30px;
+    border-spacing: 0 15px;
+}
+  .registration-box{
+      width: 900px;
+      height: 780px;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      line-height: 25px;
+      font-size: 35px;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      box-sizing: border-box;
+    }
+    .input_box{
+      width: 200px;
+      height: 25px;
+      border: 1px solid;
+  }
+  .logo img {
+    width: 100px;
+    background-color: white;
+    float: inline-start;
+  } 
+  p{
+    position: absolute;
+    left:30px;
+    bottom: 20px;
+    font-size: 30px;
+ }   
+ button{
+    color: brown;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    position: relative;
+    right: 200px;
+    bottom: 100px;
+    top: 50px;
+}
+h6{
+  text-align: left;
+  color: red;
+  position: absolute;
+  left:1px;
+  bottom: 70px;
+  font-size: 30px;
+}
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+}

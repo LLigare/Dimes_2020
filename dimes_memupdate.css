@@ -1,0 +1,21 @@
+html { 
+    background: url(fir.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.logo img {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    float: left;
+}
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+}

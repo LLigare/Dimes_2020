@@ -1,0 +1,35 @@
+html { 
+    background: url(fir.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.logo img {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    float: left;
+}
+.inputbox{
+    width: 750px;
+    height: 750px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 35px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+  }
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+}
